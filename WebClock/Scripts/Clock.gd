@@ -5,7 +5,7 @@ onready var clock_label = $Clock
 
 
 func _ready():
-	pass
+	Input.set_mouse_mode(Input.MOUSE_MODE_HIDDEN)
 
 
 func _process(delta):
