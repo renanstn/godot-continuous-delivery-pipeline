@@ -4,15 +4,17 @@
 
 Um simples relógio online, com um efeito de shader, apenas para alguns testes hiper específicos na Godot e pra aprender a usar o Netlify.
 
-## Deploy automatizado
+## Build e deploy no itch.io automatizado
 
-Aproveitei este mesmo projeto simples para testar o deploy automático através das Github Actions. Essa idéia, partiu [deste](https://saltares.com/continuous-delivery-pipeline-for-godot-and-itch.io/) excelente artigo.
+Aproveitei este projeto simples para testar o deploy automático através das Github Actions. Essa idéia, partiu [deste](https://saltares.com/continuous-delivery-pipeline-for-godot-and-itch.io/) excelente artigo.
 
-Usei [este](https://github.com/firebelley/godot-export) template.
+Usei [este](https://github.com/firebelley/godot-export) template para fazer o export do jogo.
 
-Agora, a cada commit feito na pasta do jogo, ele é buildado automaticamente e já vai parar nas [releases](https://github.com/renanstd/godot-clock/releases) 😃
+Agora, a cada commit feito na pasta do jogo: 
+- Ele é buildado automaticamente e já vai parar nas [releases](https://github.com/renanstd/godot-clock/releases) 😃
+- A build é enviada para atualizar a página do jogo no [itch.io](https://itch.io/)
 
-- Não esqueça de retirar o `export_presets.cfg` do `.gitignore`, para que a pipeline saiba identificar o método de build!
+❗ Não esqueça de retirar o `export_presets.cfg` do `.gitignore`, para que a pipeline saiba identificar o método de build! ❗
 
 ## Screenshot
 
