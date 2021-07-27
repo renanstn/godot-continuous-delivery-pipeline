@@ -15,4 +15,4 @@ func _process(delta):
 	var hour = timeDict.hour
 	var minute = timeDict.minute
 	var seconds = timeDict.second
-	clock_label.text = "%02d:%02d:%02d" % [hour, minute, seconds]
+	clock_label.text = "TEST: %02d:%02d:%02d" % [hour, minute, seconds]
