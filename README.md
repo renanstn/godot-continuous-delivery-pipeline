@@ -6,9 +6,11 @@ Um simples relógio online, com um efeito de shader, apenas para alguns testes h
 
 ## Deploy automatizado
 
-Aproveitei este mesmo projeto simples para testar o deploy automático através das Github Actions.
+Aproveitei este mesmo projeto simples para testar o deploy automático através das Github Actions. Essa idéia, partiu [deste](https://saltares.com/continuous-delivery-pipeline-for-godot-and-itch.io/) excelente artigo.
 
 Usei [este](https://github.com/firebelley/godot-export) template.
+
+Agora, a cada commit feito na pasta do jogo, ele é buildado automaticamente e já vai parar nas [releases](https://github.com/renanstd/godot-clock/releases) 😃
 
 - Não esqueça de retirar o `export_presets.cfg` do `.gitignore`, para que a pipeline saiba identificar o método de build!
 
