@@ -14,9 +14,9 @@ Usei [este](https://github.com/firebelley/godot-export) template para fazer o ex
 
 Agora, a cada commit feito na pasta do jogo:
 - Ele é buildado automaticamente e já vai parar nas [releases](https://github.com/renanstd/godot-clock/releases) 😃
-- A build é enviada para atualizar a página do jogo no [itch.io](https://itch.io/) 🚀
+- A nova versão é atualizada no [itch.io](https://itch.io/) 🚀
 
-❗ Não esqueça de retirar o `export_presets.cfg` do `.gitignore`, para que a pipeline saiba identificar o método de build! ❗
+❗ Não esqueça de retirar o `export_presets.cfg` do `.gitignore` padrão da Godot ❗
 
 ## Screenshot
 
