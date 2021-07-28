@@ -1,6 +1,8 @@
 # godot-clock
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/269faabf-b19b-47b9-bf98-0747b9183dc6/deploy-status)](https://app.netlify.com/sites/godot-clock/deploys)
+[![Itch.io](https://img.shields.io/badge/Itch-%23FF0B34.svg?style=flat&logo=Itch.io&logoColor=white)](https://docmccoy.itch.io/just-a-clock)
+[![Godot Engine](https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=flat&logo=godot-engine)](https://godotengine.org/)
 
 Um simples relógio online, com um efeito de shader, apenas para que eu possa testar um fluxo de entrega contínua (CD) usando GitHub Actions.
 
